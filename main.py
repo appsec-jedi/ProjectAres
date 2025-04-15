@@ -59,7 +59,6 @@ def main():
     print("\n")
     print("Select an option from the menu below:")
     print("1. Recon")
-    print("1. Vuln scanner")
 
     pattern = re.compile(r'[^\w.]')
     sanitized_input = pattern.sub('', input())
