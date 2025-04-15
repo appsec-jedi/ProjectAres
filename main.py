@@ -4,6 +4,7 @@ import ipaddress
 from recon.subdomain_enum import fetch_subdomains_crtsh
 from recon.port_scanner import scan_ports
 from recon.web_discovery import WebDiscovery
+from recon.network_discovery import make_selection
 
 ascii_art = r"""
 
@@ -52,8 +53,6 @@ def sanitize_selection(domain):
         raise ValueError(f"Invalid domain provided: {domain}")
     
 
-
-
 def main():
     print(ascii_art)
     print("\n")
@@ -69,6 +68,7 @@ def main():
         print("1. Domain enumeration")
         print("2. Port scanner")
         print("3. Web discovery")
+        print("4. Network discovery")
 
         sanitized_input = pattern.sub('', input())
         if sanitized_input == "1":
@@ -82,8 +82,8 @@ def main():
         elif sanitized_input == "3":
             selected_domain = input("What is the domain you want to check?: ")
             WebDiscovery(sanitize_domain(selected_domain)).run_all()
-
-
+        elif sanitized_input == "4":
+            make_selection()
 
 if __name__ == '__main__':
     main()

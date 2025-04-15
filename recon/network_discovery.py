@@ -168,6 +168,3 @@ def make_selection():
         scan_network(online_hosts)
     else:
         print("Later tater!")
-
-if __name__ == "__main__":
-    make_selection()
