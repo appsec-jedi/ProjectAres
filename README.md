@@ -42,7 +42,7 @@ The project leverages industry-standard tools like nmap, along with Python libra
   - **Windows:** Download and install from the [nmap website](https://nmap.org/)
   
 - **Python Libraries:**  
-  Install the required Python packages. For example, create and activate a virtual environment, then run: pip install -r requirements.txt
+  Install the required Python packages. For example, create and activate a virtual environment, then run: `pip install -r requirements.txt`
 
 ### Installation
 
