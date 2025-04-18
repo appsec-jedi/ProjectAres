@@ -60,10 +60,10 @@ The project leverages industry-standard tools like nmap, along with Python libra
 
 - For example, selecting “1” for Recon will then prompt you to choose one of the recon tools:
 
- 1. Subdomain Enumeration: Enter a domain name to enumerate subdomains.
- 2. Port Scanner: Enter an IP address to scan open ports.
- 3. Web Discovery: Enter a domain name to perform web recon.
- 4. Network Discovery: Launch a network discovery routine to identify active hosts on your local network.
+    1. Subdomain Enumeration: Enter a domain name to enumerate subdomains.
+    2. Port Scanner: Enter an IP address to scan open ports.
+    3. Web Discovery: Enter a domain name to perform web recon.
+    4. Network Discovery: Launch a network discovery routine to identify active hosts on your local network.
 
 The scripts incorporate input sanitization and error handling to ensure reliable operations.
 
