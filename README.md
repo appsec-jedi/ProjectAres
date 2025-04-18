@@ -1,4 +1,4 @@
-# ProjectAres
+# :crossed_swords: ProjectAres :crossed_swords:
 
 ProjectAres is an automated offensive security toolkit built with Python. It is designed for reconnaissance and preliminary vulnerability scanning, providing modular capabilities to perform tasks such as subdomain enumeration, port scanning, web discovery, and network discovery.
 
