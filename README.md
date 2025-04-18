@@ -46,24 +46,24 @@ The project leverages industry-standard tools like nmap, along with Python libra
 
 ### Installation
 
-- **Clone the repository:** git clone <https://github.com/yourusername/ProjectAres.git>
-- **Navigate to the project directory:** cd ProjectAres
-- **Create a virtual environment and activate it:** python3 -m venv myenv / source myenv/bin/activate
-- **Install dependencies:** pip install -r requirements.txt
+- **Clone the repository:** `git clone <https://github.com/yourusername/ProjectAres.git>`
+- **Navigate to the project directory:** `cd ProjectAres`
+- **Create a virtual environment and activate it:** `python3 -m venv myenv / source myenv/bin/activate`
+- **Install dependencies:** `pip install -r requirements.txt`
 
 ### Usage
 
-Run the main program using the following command: python main.py
+- Run the main program using the following command: `python main.py`
+- Upon running the script, you will see the ProjectAres ASCII art followed by a menu:
+- Recon: Select from options for domain enumeration, port scanning, web discovery, or network discovery.
+- Vuln Scanner: A placeholder for future integration of vulnerability scanning capabilities.
 
-Upon running the script, you will see the ProjectAres ASCII art followed by a menu:
- • Recon: Select from options for domain enumeration, port scanning, web discovery, or network discovery.
- • Vuln Scanner: A placeholder for future integration of vulnerability scanning capabilities.
+- For example, selecting “1” for Recon will then prompt you to choose one of the recon tools:
 
-For example, selecting “1” for Recon will then prompt you to choose one of the recon tools:
- • Subdomain Enumeration: Enter a domain name to enumerate subdomains.
- • Port Scanner: Enter an IP address to scan open ports.
- • Web Discovery: Enter a domain name to perform web recon.
- • Network Discovery: Launch a network discovery routine to identify active hosts on your local network.
+ 1. Subdomain Enumeration: Enter a domain name to enumerate subdomains.
+ 2. Port Scanner: Enter an IP address to scan open ports.
+ 3. Web Discovery: Enter a domain name to perform web recon.
+ 4. Network Discovery: Launch a network discovery routine to identify active hosts on your local network.
 
 The scripts incorporate input sanitization and error handling to ensure reliable operations.
 
